@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/x-ico" href="./images/favicon.ico" />
+  <title>
+    Анатолий Агарков | Веб-разработчик из Донецка, Россия.
+  </title>
+  <meta name="description" content="Разработка фронтенд части веб приложений.">
+  <meta name="keywords" content="Агарков Анатолий. HTML, CSS, SASS, REACT" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  <!-- ***** Header ***** -->
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#work" class="nav__link">Работы</a></li>
+          <li class="nav__item"><a href="#about" class="nav__link">О себе</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary"><span>Анатолий Агарков</span></h1>
+        <p>Веб-разработчик из Донецка, Россия</p>
+        <a href="#contact" class="btn btn--pink">Связь со мной</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <!-- ***** Work ***** -->
+
+    <section class="work" id="work">
+      <div class="row">
+        <h2>Мои работы</h2>
+        <div class="work__boxes">
+          <div class="work__box">
+            <div class="work__text">
+              <h3>To Do List</h3>
+              <p>
+                Проект представляет собой приложение - список дел!
+              </p>
+              <ul class="work__list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>TypeScript</li>
+                <li>React</li>
+              </ul>
+              <div class="work__links">
+                <a href="https://agarkovanatoliy.github.io/todo-list-project/" target="_blank" class="link__text">
+                  Посетите Сайт <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/agarkovanatoliy/todo-list-project" title="Посмотреть исходный код" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/To-Do-List.png" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Study project</h3>
+              <p>
+                Реализация верстки магазина одежды и перевод проека на React
+              </p>
+              <ul class="work__list">
+                <li>React</li>
+                <li>HTML</li>
+                <li>SCC</li>
+                <li>SASS</li>
+              </ul>
+
+              <div class="work__links">
+                <!-- <a href="#" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a> -->
+                <a href="https://github.com/agarkovanatoliy/study_project">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <video class="projects__video"  src="./images/study_project.mp4" autoplay muted loop></video>
+            </div>
+          </div>
+
+          <!-- <div class="work__box">
+            <div class="work__text">
+              <h3>Notificator</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
+                eius.
+              </p>
+              <ul class="work__list">
+                <li>React</li>
+                <li>Next.js</li>
+                <li>Node</li>
+                <li>MongoDB</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="#" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="#">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project-3.png" class="work__image" alt="Project 3" />
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>Обо мне</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <p>
+              Я  frontend-разработчик с высшим образованием в области электросистем, что помогает мне подходить к задачам нестандартно и с технической точки зрения. Обладаю знаниями HTML5, CSS3, JavaScript и React. Я стремлюсь к постоянному развитию и готов внедрять современные технологии для создания эффективных и удобных пользовательских интерфейсов.
+            </p>
+            <a href="#" class="btn">My Resume</a>
+          </div>
+
+          <div class="about__photo-container">
+            <img class="about__photo" src="./images/syed-ali-hussnain.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Связь со мной</h2>
+      <div class="contact__info">
+        <p>
+          Есть желание задать вопросы? Или у вас есть совет для меня, или просто хотите
+          сказать «Привет 👋» в любом случае, не стесняйтесь, дайте мне знать.
+          Сделаю все возможное, чтобы ответить. 😊 Самый быстрый способ связаться со мной
+          со мной - написать в телеграм.
+        </p>
+        <a href="https://t.me/AnatoliyAgarkov" class="btn">t.me/AnatoliyAgarkov</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://t.me/AnatoliyAgarkov" title="Link to Telegram Profile">
+            <img src="./images/telegram-svgrepo-com.svg" class="footer__social-image" alt="Telegram">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://github.com/agarkovanatoliy" title="Link to Github Profile">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://www.codewars.com/users/AnatoliyAgarkov" title="Link to Codewars Profile">
+            <img src="./images/brand-codewars-svgrepo-com.svg" class="footer__social-image" alt="Codewars">
+          </a>
+        </li>
+      </ul>
+      <p>
+        &copy; 2024 - Выполнена верстка по макету <a href="#top" class="link">Анатолием</a>.
+      </p>
+      <div class="footer__github-buttons">
+        <iframe
+          src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true"
+          frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
+        </iframe>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Вернуться к началу">
+    <img src="./images/arrow-up.svg" alt="Вернуться к началу" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+</body>
+
+</html>
